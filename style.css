@@ -3,22 +3,69 @@
 	font-family: "work sans", sans-serif;
 }
 .banner {
-    height: 800px;
+	height: 800px;
 }
-.bg-1{
-    background-image: url(images/banner/banner1.png);
+.bg-1 {
+	background-image: url(images/banner/banner1.png);
 }
-.bg-2{
-    background-image: url(images/banner/banner2.png);
+.bg-2 {
+	background-image: url(images/banner/banner2.png);
 }
-.bg-3{
-    background-image: url(images/banner/banner3.png);
+.bg-3 {
+	background-image: url(images/banner/banner3.png);
 }
 
-.text-section{
-    width: 50%;
-    float: right;
+.text-section {
+	width: 525px;
+	float: right;
+	text-align: right;
+	margin: 230px;
 }
-.text-section h2{
-    font-size: 65px;
+.text-section h1 {
+	font-size: 65px;
+	color: #151414;
+	line-height: 76px;
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+.text-section p {
+	color: #444343;
+	line-height: 26px;
+	font-weight: 400;
+}
+.btn-orange {
+	font-size: 20px;
+	color: white;
+	background-color: #f15b22;
+	border: 0;
+	padding: 20px 25px;
+	border-radius: 5px;
+	margin-top: 32px;
+}
+
+.person {
+	display: flex;
+	width: 90%;
+	align-items: center;
+	justify-content: space-around;
+}
+.person img {
+	height: 720px;
+	width: 570px;
+	margin-left: 200px;
+}
+.previous-year {
+	width: 416px;
+	height: 400px;
+}
+.previous-year h1 {
+	font-size: 40px;
+	line-height: 47px;
+	margin-bottom: 26px;
+}
+.text-normal {
+	font-size: 16px;
+	color: #444343;
+	line-height: 26px;
+	margin-bottom: 16px;
 }
